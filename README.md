@@ -26,18 +26,9 @@
 
 <table align="center">
       <tr>
-       <th>Họ và Tên</th>
-       <th>Github</th>
-       </tr>
-      <tr>
-       <td>Nguyễn Trần Thái Duy</td>
-       <td>https://github.com/thaiduy1704</td>
-     </tr>
-      <tr>
        <td>Nguyễn Hữu Tuấn  </td>
         <td>https://github.com/TuanLove1</td>
         </tr>
-      
 </table>
 <h2>
    Phân công công việc 
@@ -45,19 +36,11 @@
 
 <table align="center">
       <tr>
-       <th>Họ và Tên</th>
-       <th>Công việc</th>
-       <th>Tiến độ</th>
-      </tr>
-      <tr>
-       <td>Nguyễn Trần Thái Duy</td>
-       <td align="right" >HomePage<br> ReadMe</td>
-       <td align="right">Done<br> Done</td>
-      </tr>
-      <tr>
        <td>Nguyễn Hữu Tuấn </td>
         <td align="right">AdminPage</td>
         <td align="right">Done</td>
         </tr>
-      
 </table>
+<p>Tài khoản,Mật khẩu</p>
+<p>TK:barin</p>
+<p>MK:123456</p>
