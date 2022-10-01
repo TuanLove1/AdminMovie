@@ -32,7 +32,7 @@ function App() {
           <Route path='admin' element={<AdminLazy />}>
             <Route path='user' element={<User />} />
             <Route path='add-user' element={<AddUser />} />
-            <Route path='edit-user' element={<EditUser />} />
+            <Route path='edit-user/:id' element={<EditUser />} />
             <Route path='movie' element={<Movie />} />
             <Route path='add-movie' element={<AddMovie />} />
             <Route path='log-out' element={<Logout />} />

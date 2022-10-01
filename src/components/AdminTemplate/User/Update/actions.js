@@ -6,7 +6,7 @@ import withReactContent from 'sweetalert2-react-content';
 export const actUpdateUser = (user) =>{
     return (dispatch) => {
         dispatch(actUpdateRequest());
-        api.put('QuanLyNguoiDung/CapNhatThongTinNguoiDung',user)
+        api.post('QuanLyNguoiDung/CapNhatThongTinNguoiDung',user)
         .then((result)=>{
             dispatch(actUpdateSuccess(result.data.content))
             console.log(result.data);

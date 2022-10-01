@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { actDeleteUser } from '../DeleteUser/actions';
 import { actEditUser } from '../EditUser/reducer/actions';
 const Table = ({ users, loading, navigate }) => {
+    console.log(users);
     let dispatch = useDispatch()
     if (loading) {
         return <h2>Loading...</h2>;
@@ -23,8 +24,7 @@ const Table = ({ users, loading, navigate }) => {
                 }} class="fas fa-trash-alt xoa"></i>
                 <i onClick={() => {
                     Object.assign(user, { maNhom: "GP10" });
-                    dispatch(actEditUser(user))
-                    navigate('/admin/edit-user', user)
+                    navigate(`/admin/edit-user/${user.taiKhoan}`)
                 }} class="fas fa-edit edit"></i>
             </td>
         </tr>
